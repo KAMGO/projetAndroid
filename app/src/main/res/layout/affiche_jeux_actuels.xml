@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/gameListTitle"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:id="@+id/gameListL1A"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_span="3"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="match_parent"
+                        android:id="@+id/gameListL1AC1"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:text=""
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/gameListL1B"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/gameListL1BC2"
+                        android:layout_width="275dp"
+                        android:textAlignment="center"
+                        android:text=""
+                        />
+
+                    <TextView
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/gameListL1BC3"
+                        android:layout_width="75dp"
+                        android:textAlignment="center"
+                        android:text=""
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/gameListL2A"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_span="3"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="match_parent"
+                        android:id="@+id/gameListL2AC1"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:text=""
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/gameListL2B"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/gameListL2BC2"
+                        android:layout_width="275dp"
+                        android:textAlignment="center"
+                        android:text=""
+                        />
+
+                    <TextView
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/gameListL2BC3"
+                        android:layout_width="75dp"
+                        android:textAlignment="center"
+                        android:text=""
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/gameListL3A"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_span="3"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="match_parent"
+                        android:id="@+id/gameListL3AC1"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:text=""
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/gameListL3B"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/gameListL3BC2"
+                        android:layout_width="275dp"
+                        android:textAlignment="center"
+                        android:text=""
+                        />
+
+                    <TextView
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/gameListL3BC3"
+                        android:layout_width="75dp"
+                        android:textAlignment="center"
+                        android:text=""
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/gameListL4A"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_span="3"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="match_parent"
+                        android:id="@+id/gameListL4AC1"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:text=""
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/gameListL4B"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/gameListL4BC2"
+                        android:layout_width="275dp"
+                        android:textAlignment="center"
+                        android:text=""
+                        />
+
+                    <TextView
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/gameListL4BC3"
+                        android:layout_width="75dp"
+                        android:textAlignment="center"
+                        android:text=""
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/gameListL5A"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_span="3"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="match_parent"
+                        android:id="@+id/gameListL5AC1"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:text=""
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/gameListL5B"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/gameListL5BC2"
+                        android:layout_width="275dp"
+                        android:textAlignment="center"
+                        android:text=""
+                        />
+
+                    <TextView
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/gameListL5BC3"
+                        android:layout_width="75dp"
+                        android:textAlignment="center"
+                        android:text=""
+                        />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/gameListPrevious"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="3dp"
+                android:textColor="#C9C9C9"
+                android:text="@string/gameList_prev"
+                android:layout_alignParentLeft="true" />
+
+            <Button
+                android:id="@+id/gameListNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="#C9C9C9"
+                android:text="@string/gameList_next"
+                android:layout_alignParentLeft="true" />
+
+            <Button
+                android:id="@+id/gameListClose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="30dp"
+                android:textColor="#C9C9C9"
+                android:text="@string/gameList_btnCancel"
+                android:layout_alignParentLeft="true" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

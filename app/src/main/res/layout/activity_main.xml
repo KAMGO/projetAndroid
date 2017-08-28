@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="projetandroid.myandroidapplication.MainActivity">
+    <ScrollView
+        android:id="@+id/tampon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:id="@+id/tv_messages"/>
+            <LinearLayout
+                android:id="@+id/connexion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:text="@string/tv_Login"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tv_Login"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:ellipsize="start"
+                    android:id="@+id/et_login"
+                    android:inputType="text" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:text="@string/tv_password"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:ellipsize="start"
+                    android:id="@+id/et_password"
+                    android:inputType="textPassword" />
+
+                <Button
+                    android:id="@+id/bt_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="25dp"
+                    android:textColor="#C9C9C9"
+                    android:text="@string/btnConnexion"
+                    android:layout_alignParentLeft="true" />
+
+                <Button
+                    android:id="@+id/bt_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#C9C9C9"
+                    android:text="@string/btnEnregistrement"
+                    android:layout_alignParentRight="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:text="@string/pseudo"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:ellipsize="start"
+                    android:id="@+id/et_registerLogin"
+                    android:inputType="text" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:text="@string/motPasse1"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:ellipsize="start"
+                    android:id="@+id/et_registerPassword1"
+                    android:inputType="textPassword" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:text="@string/motPasse2"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:ellipsize="start"
+                    android:id="@+id/et_registerPassword2"
+                    android:inputType="textPassword" />
+
+                <Button
+                    android:id="@+id/bt_registerRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#C9C9C9"
+                    android:text="@string/register_register" />
+
+                <Button
+                    android:id="@+id/bt_registerCancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#C9C9C9"
+                    android:text="@string/register_cancel" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

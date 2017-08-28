@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- ****************************************************************************************** -->
+    <!--***********************     Gestion de la connexion     *********************************** -->
+    <!-- ****************************************************************************************** -->
+    <string name="app_name">ProjetAdroidYaya</string>
+    <string name="tw_titreSeconecter">Bienvenue dans la gestion des scores</string>
+    <string name="tv_Login">saisir votre pseudo</string>
+    <string name="tv_password">votre mot de passe</string>
+    <string name="btnConnexion">Se Connecter</string>
+    <string name="btnEnregistrement">S\'enregistre</string>
+    <string name="btnSauvegarder">Sauvegarder</string>
+
+    <string name="pseudo">Pseudo</string>
+    <string name="motPasse1"> password 1 </string>
+    <string name="motPasse2"> password 2 </string>
+    <string name="register_register"> valider  son enregistrement </string>
+    <string name="register_cancel"> quitter </string>
+
+
+
+
+    <string name="nomjoueur">entrer le nom du joueur </string>
+    <string name="nomjeu">entrer le nom du jeu</string>
+    <string name="scorejeu">entrer le score</string>
+
+
+
+    <string name="addScore_addScore">Ajouter un Score</string>
+    <string name="addScore_Cancel">Quitter</string>
+
+
+    <string name="gameList_prev">precedant</string>
+    <string name="gameList_next">suivant</string>
+    <string name="gameList_btnCancel">quitter</string>
+
+
+
+
+    <string name="playerList_btnCancel">quitter</string>
+
+
+    scores_addScore
+    <string name="scores_addScore"> add score</string>
+    <string name="scores_top10">affiche top 10</string>
+    <string name="scores_players">liste des joueurs </string>
+    <string name="scores_games">liste des jeux </string>
+    <string name="boutton_retour"> quitter </string>
+
+
+
+    <string name="top10_l1">1er</string>
+    <string name="top10_l2">2e</string>
+    <string name="top10_l3">3e</string>
+    <string name="top10_l4">4e</string>
+    <string name="top10_l5">5e</string>
+    <string name="top10_l6">6e</string>
+    <string name="top10_l7">7e</string>
+    <string name="top10_l8">8e</string>
+    <string name="top10_l9">9e</string>
+    <string name="top10_l10">10e</string>
+    <string name="valider">valider</string>
+    <string name="nom1jeu">entrer le nom d'un jeu </string>
+
+</resources>
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tv_titre"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <Button android:id="@+id/bt_addScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#C9C9C9"
+        android:text="@string/scores_addScore"
+        android:layout_alignParentLeft="true"/>
+
+    <Button android:id="@+id/bt_top10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#C9C9C9"
+        android:text="string/scores_top10"
+        android:layout_alignParentLeft="true"/>
+
+    <Button android:id="@+id/bt_listeJeux"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#C9C9C9"
+        android:text="string/scores_games"
+        android:layout_alignParentLeft="true"/>
+
+    <Button android:id="@+id/bt_listeJoueurs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#C9C9C9"
+        android:text="string/scores_players"
+        android:layout_alignParentLeft="true" />
+
+    <Button android:id="@+id/bt_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#C9C9C9"
+        android:text="@string/boutton_retour"
+        android:layout_alignParentLeft="true" />
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>
